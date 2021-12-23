@@ -1,0 +1,8 @@
+<div class="wrapper">
+    <div action="">
+        <input #userName class="form-control mb-2" type="text" name="" id="" placeholder="UserName">
+        <input #password class="form-control" type="password" name="" id="" placeholder="Password">
+        <input #token type="hidden" name="token" value="1">
+        <button (click)="login(userName.value, password.value, token.value)" class="btn btn-success form-control mt-3" type="submit">Login</button>
+    </div>
+</div>
